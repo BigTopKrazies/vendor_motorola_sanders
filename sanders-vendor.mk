@@ -137,21 +137,16 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sanders/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv_India.bin:system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv_India.bin \
     vendor/motorola/sanders/proprietary/etc/firmware/wlan/prima/WCNSS_wlan_dictionary.dat:system/etc/firmware/wlan/prima/WCNSS_wlan_dictionary.dat \
     vendor/motorola/sanders/proprietary/etc/xtra_root_cert.pem:system/etc/xtra_root_cert.pem \
-    vendor/motorola/sanders/proprietary/lib/hw/camera.vendor.msm8953.so:system/lib/hw/camera.msm8953.so \
+    vendor/motorola/sanders/proprietary/lib/hw/camera.msm8953.so:system/lib/hw/camera.msm8953.so \
     vendor/motorola/sanders/proprietary/lib/hw/fingerprint.msm8953.so:system/vendor/lib/hw/fingerprint.vendor.msm8953.so \
-    vendor/motorola/sanders/proprietary/lib/hw/sensorhub.msm8953.so:system/lib/hw/sensorhub.msm8953.so \
-    vendor/motorola/sanders/proprietary/lib/hw/sensors.msm8953.so:system/lib/hw/sensors.msm8953.so \
+    vendor/motorola/sanders/proprietary/lib/hw/sensors.iio.so:system/lib/hw/sensors.iio.so \
+    vendor/motorola/sanders/proprietary/lib/hw/sensors.rp.so:system/lib/hw/sensors.rp.so \
+    vendor/motorola/sanders/proprietary/lib/hw/sensors.sanders.so:system/lib/hw/sensors.sanders.so \
     vendor/motorola/sanders/proprietary/lib/lib_fpc_tac_shared.so:system/lib/lib_fpc_tac_shared.so \
     vendor/motorola/sanders/proprietary/lib/lib_motsensorlistener.so:system/lib/lib_motsensorlistener.so \
-    vendor/motorola/sanders/proprietary/lib/lib_mottof.so:system/lib/lib_mottof.so \
     vendor/motorola/sanders/proprietary/lib/libadropbox.so:system/lib/libadropbox.so \
-    vendor/motorola/sanders/proprietary/lib/libadvalgcore.so:system/lib/libadvalgcore.so \
     vendor/motorola/sanders/proprietary/lib/libarcsoft_beautyshot.so:system/lib/libarcsoft_beautyshot.so \
-    vendor/motorola/sanders/proprietary/lib/libcamerabgprocservice.so:system/lib/libcamerabgprocservice.so \
     vendor/motorola/sanders/proprietary/lib/libcom_fingerprints_service.so:system/lib/libcom_fingerprints_service.so \
-    vendor/motorola/sanders/proprietary/lib/libfamily_photo.so:system/lib/libfamily_photo.so \
-    vendor/motorola/sanders/proprietary/lib/libjscore.so:system/lib/libjscore.so \
-    vendor/motorola/sanders/proprietary/lib/libjustshoot.so:system/lib/libjustshoot.so \
     vendor/motorola/sanders/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
     vendor/motorola/sanders/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
     vendor/motorola/sanders/proprietary/lib/libmbs.so:system/lib/libmbs.so \
@@ -159,19 +154,14 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sanders/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
     vendor/motorola/sanders/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/motorola/sanders/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
-    vendor/motorola/sanders/proprietary/lib/libmorpho_image_stabilizer4.so:system/lib/libmorpho_image_stabilizer4.so \
-    vendor/motorola/sanders/proprietary/lib/libmot-qc-fd-offline.so:system/lib/libmot-qc-fd-offline.so \
     vendor/motorola/sanders/proprietary/lib/libmot_afd.so:system/lib/libmot_afd.so \
     vendor/motorola/sanders/proprietary/lib/libmot_lux_standardization.so:system/lib/libmot_lux_standardization.so \
     vendor/motorola/sanders/proprietary/lib/libmotext_inf.so:system/lib/libmotext_inf.so \
     vendor/motorola/sanders/proprietary/lib/libmotimager_utils.so:system/lib/libmotimager_utils.so \
-    vendor/motorola/sanders/proprietary/lib/libmpbase.so:system/lib/libmpbase.so \
     vendor/motorola/sanders/proprietary/lib/libqmimotext.so:system/lib/libqmimotext.so \
     vendor/motorola/sanders/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
-    vendor/motorola/sanders/proprietary/lib/libsensorhub.so:system/lib/libsensorhub.so \
     vendor/motorola/sanders/proprietary/lib/lib_mot_app6_metadata.so:system/lib/lib_mot_app6_metadata.so \
     vendor/motorola/sanders/proprietary/lib/libmotaudioutils.so:system/lib/libmotaudioutils.so \
-    vendor/motorola/sanders/proprietary/lib/libmotefem_svc.so:system/lib/libmotefem_svc.so \
     vendor/motorola/sanders/proprietary/vendor/bin/audioflacapp:system/vendor/bin/audioflacapp \
     vendor/motorola/sanders/proprietary/vendor/bin/esepmdaemon:system/vendor/bin/esepmdaemon \
     vendor/motorola/sanders/proprietary/vendor/bin/mm-pp-dpps:system/vendor/bin/mm-pp-dpps \
@@ -245,7 +235,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sanders/proprietary/vendor/lib/libbtnv.so:system/vendor/lib/libbtnv.so \
     vendor/motorola/sanders/proprietary/vendor/lib/libc2d30-a5xx.so:system/vendor/lib/libc2d30-a5xx.so \
     vendor/motorola/sanders/proprietary/vendor/lib/libc2d30_bltlib.so:system/vendor/lib/libc2d30_bltlib.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libcamerabgproc-jni.so:system/vendor/lib/libcamerabgproc-jni.so \
     vendor/motorola/sanders/proprietary/vendor/lib/libchromaflash.so:system/vendor/lib/libchromaflash.so \
     vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_ov16860_4k_ihdr_video_3a.so:system/vendor/lib/libchromatix_ov16860_4k_ihdr_video_3a.so \
     vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_ov16860_4k_video_3a.so:system/vendor/lib/libchromatix_ov16860_4k_video_3a.so \
@@ -504,7 +493,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sanders/proprietary/vendor/lib/libloc_ext.so:system/vendor/lib/libloc_ext.so \
     vendor/motorola/sanders/proprietary/vendor/lib/libloc_externalDr.so:system/vendor/lib/libloc_externalDr.so \
     vendor/motorola/sanders/proprietary/vendor/lib/liblowi_client.so:system/vendor/lib/liblowi_client.so \
-    vendor/motorola/sanders/proprietary/lib/libYuvSkia.so:system/lib/libYuvSkia.so \
     vendor/motorola/sanders/proprietary/lib/libzxingcpp.so:system/lib/libzxingcpp.so \
     vendor/motorola/sanders/proprietary/vendor/lib/libmmcamera_mot_imx362.so:system/vendor/lib/libmmcamera_mot_imx362.so \
     vendor/motorola/sanders/proprietary/vendor/lib/libmmcamera_mot_ov5695.so:system/vendor/lib/libmmcamera_mot_ov5695.so \
@@ -904,6 +892,27 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sanders/proprietary/vendor/lib/libbson.so:system/vendor/lib/libbson.so \
     vendor/motorola/sanders/proprietary/vendor/lib/libguy.so:system/vendor/lib/libguy.so \
     vendor/motorola/sanders/proprietary/vendor/lib/libuy.so:system/vendor/lib/libuy.so \
+    vendor/motorola/sanders/proprietary/vendor/lib/hw/activity_recognition.msm8953.so:system/vendor/lib/hw/activity_recognition.msm8953.so \
+    vendor/motorola/sanders/proprietary/vendor/lib/lib_mot_led_calibration.so:system/vendor/lib/lib_mot_led_calibration.so \
+    vendor/motorola/sanders/proprietary/vendor/lib/lib_rsu.so:system/vendor/lib/lib_rsu.so \
+    vendor/motorola/sanders/proprietary/vendor/lib/libactuator_mot_ak7371_bear.so:system/vendor/lib/libactuator_mot_ak7371_bear.so \
+    vendor/motorola/sanders/proprietary/vendor/lib/libactuator_mot_ak7371_mono.so:system/vendor/lib/libactuator_mot_ak7371_mono.so \
+    vendor/motorola/sanders/proprietary/vendor/lib/libbase64.so:system/vendor/lib/libbase64.so \
+    vendor/motorola/sanders/proprietary/vendor/lib/libbt-logClient.so:system/vendor/lib/libbt-logClient.so \
+    vendor/motorola/sanders/proprietary/vendor/lib/libclearsight.so:system/vendor/lib/libclearsight.so \
+    vendor/motorola/sanders/proprietary/vendor/lib/libflash_wd3100.so:system/vendor/lib/libflash_wd3100.so \
+    vendor/motorola/sanders/proprietary/vendor/lib/libjni_clearsight.so:system/vendor/lib/libjni_clearsight.so \
+    vendor/motorola/sanders/proprietary/vendor/lib/libllvb_smore.so:system/vendor/lib/libllvb_smore.so \
+    vendor/motorola/sanders/proprietary/vendor/lib/libmcf-foundation.so:system/vendor/lib/libmcf-foundation.so \
+    vendor/motorola/sanders/proprietary/vendor/lib/libmcf-local.so:system/vendor/lib/libmcf-local.so \
+    vendor/motorola/sanders/proprietary/vendor/lib/libmcf-qc-fd-offline.so:system/vendor/lib/libmcf-qc-fd-offline.so \
+    vendor/motorola/sanders/proprietary/vendor/lib/libmmcamera_dw9763_eeprom.so:system/vendor/lib/libmmcamera_dw9763_eeprom.so \
+    vendor/motorola/sanders/proprietary/vendor/lib/libmmcamera_gt24c64_bear_eeprom.so:system/vendor/lib/libmmcamera_gt24c64_bear_eeprom.so \
+    vendor/motorola/sanders/proprietary/vendor/lib/libmmcamera_gt24c64_mono_eeprom.so:system/vendor/lib/libmmcamera_gt24c64_mono_eeprom.so \
+    vendor/motorola/sanders/proprietary/vendor/lib/libmmcamera_l4h8f20_eeprom.so:system/vendor/lib/libmmcamera_l4h8f20_eeprom.so \
+    vendor/motorola/sanders/proprietary/vendor/lib/libmmcamera_mot_s5k3l8_bear.so:system/vendor/lib/libmmcamera_mot_s5k3l8_bear.so \
+    vendor/motorola/sanders/proprietary/vendor/lib/libmmcamera_mot_s5k3l8_mono.so:system/vendor/lib/libmmcamera_mot_s5k3l8_mono.so \
+    vendor/motorola/sanders/proprietary/vendor/lib/libslpcsystem_jni.so:system/vendor/lib/libslpcsystem_jni.so
 
 PRODUCT_PACKAGES += \
     TimeService \
