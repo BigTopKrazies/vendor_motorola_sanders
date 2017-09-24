@@ -1000,7 +1000,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_s5k3l8_mono_zsl_preview_3a.so:system/vendor/lib/libchromatix_mot_s5k3l8_mono_zsl_preview_3a.so \
     vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_s5k3l8_mono_zsl_video_3a.so:system/vendor/lib/libchromatix_mot_s5k3l8_mono_zsl_video_3a.so \
     vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_s5k4h8_cpp_snapshot_custom.so:system/vendor/lib/libchromatix_s5k4h8_cpp_snapshot_custom.so \
-    vendor/motorola/albus/proprietary/bin/sensors.qcom:system/bin/sensors.qcom
+    vendor/motorola/sanders/proprietary/bin/sensors.qcom:system/bin/sensors.qcom
 
 PRODUCT_PACKAGES += \
     TimeService \
