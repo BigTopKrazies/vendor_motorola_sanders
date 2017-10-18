@@ -18,11 +18,9 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sanders/proprietary/bin/adspd:system/bin/adspd \
     vendor/motorola/sanders/proprietary/bin/adsprpcd:system/bin/adsprpcd \
     vendor/motorola/sanders/proprietary/bin/akmd09912:system/bin/akmd09912 \
-    vendor/motorola/sanders/proprietary/bin/batt_health:system/bin/batt_health \
     vendor/motorola/sanders/proprietary/bin/btnvtool:system/bin/btnvtool \
     vendor/motorola/sanders/proprietary/bin/charge_only_mode:system/bin/charge_only_mode \
     vendor/motorola/sanders/proprietary/bin/cnd:system/bin/cnd \
-    vendor/motorola/sanders/proprietary/bin/dbvc_atvc_property_set:system/bin/dbvc_atvc_property_set \
     vendor/motorola/sanders/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/motorola/sanders/proprietary/bin/ims_rtp_daemon:system/bin/ims_rtp_daemon \
     vendor/motorola/sanders/proprietary/bin/imscmservice:system/bin/imscmservice \
