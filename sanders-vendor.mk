@@ -20,6 +20,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sanders/proprietary/bin/akmd09912:system/bin/akmd09912 \
     vendor/motorola/sanders/proprietary/bin/batt_health:system/bin/batt_health \
     vendor/motorola/sanders/proprietary/bin/btnvtool:system/bin/btnvtool \
+    vendor/motorola/sanders/proprietary/bin/cnd:system/bin/cnd \
     vendor/motorola/sanders/proprietary/bin/dbvc_atvc_property_set:system/bin/dbvc_atvc_property_set \
     vendor/motorola/sanders/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/motorola/sanders/proprietary/bin/ims_rtp_daemon:system/bin/ims_rtp_daemon \
@@ -870,6 +871,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sanders/proprietary/lib/libuiblur.so:system/lib/libuiblur.so \
     vendor/motorola/sanders/proprietary/lib/libmemalloc.so:system/lib/libmemalloc.so \
     vendor/motorola/sanders/proprietary/vendor/lib/libprotobuf-cpp-shit.so:system/vendor/lib/libprotobuf-cpp-shit.so \
+    vendor/motorola/sanders/proprietary/vendor/lib/libprotobuf-cpp-biss.so:system/vendor/lib/libprotobuf-cpp-biss.so \
     vendor/motorola/sanders/proprietary/lib/libqsap_sdk.so:system/lib/libqsap_sdk.so \
     vendor/motorola/sanders/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/motorola/sanders/proprietary/vendor/lib/libpanelmode.so:system/vendor/lib/libpanelmode.so \
