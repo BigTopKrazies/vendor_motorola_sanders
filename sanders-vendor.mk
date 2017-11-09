@@ -105,15 +105,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sanders/proprietary/etc/firmware/rampatch_tlv_3.0.tlv:system/etc/firmware/rampatch_tlv_3.0.tlv \
     vendor/motorola/sanders/proprietary/etc/firmware/rampatch_tlv_3.2.tlv:system/etc/firmware/rampatch_tlv_3.2.tlv \
     vendor/motorola/sanders/proprietary/etc/firmware/sensorhub-blacklist.txt:system/etc/firmware/sensorhub-blacklist.txt \
-    vendor/motorola/sanders/proprietary/etc/firmware/synaptics-boe-potter-16112102-25d862-potter.tdat:system/etc/firmware/synaptics-boe-potter-16112102-25d862-potter.tdat \
-    vendor/motorola/sanders/proprietary/etc/firmware/synaptics-boe-s3203b-16112102-25d862-potter.tdat:system/etc/firmware/synaptics-boe-s3203b-16112102-25d862-potter.tdat \
-    vendor/motorola/sanders/proprietary/etc/firmware/synaptics-s3508sga-16103104-255c40-albus.tdat:system/etc/firmware/synaptics-s3508sga-16103104-255c40-albus.tdat \
-    vendor/motorola/sanders/proprietary/etc/firmware/synaptics-s3508sga-16103104-255c40-albus.tdat:system/etc/firmware/synaptics-s3508sga-17022300-255c40-albus.tdat \
-    vendor/motorola/sanders/proprietary/etc/firmware/synaptics-tianma-potter-17011001-237533-potter.tdat:system/etc/firmware/synaptics-tianma-potter-17011001-237533-potter.tdat \
-    vendor/motorola/sanders/proprietary/etc/firmware/synaptics-tianma-s3203b-17011001-237533-potter.tdat:system/etc/firmware/synaptics-tianma-s3203b-17011001-237533-potter.tdat \
     vendor/motorola/sanders/proprietary/etc/firmware/sensorhubfw.bin:system/etc/firmware/sensorhubfw.bin \
-    vendor/motorola/sanders/proprietary/etc/firmware/synaptics-s3508-16082601-255c40-addison.tdat:system/etc/firmware/synaptics-s3508-16082601-255c40-addison.tdat \
-    vendor/motorola/sanders/proprietary/etc/firmware/synaptics-s3508sga-16082601-255c40-addison.tdat:system/etc/firmware/synaptics-s3508sga-16082601-255c40-addison.tdat \
     vendor/motorola/sanders/proprietary/etc/permissions/cneapiclient.xml:system/etc/permissions/cneapiclient.xml \
     vendor/motorola/sanders/proprietary/etc/permissions/com.qti.location.sdk.xml:system/etc/permissions/com.qti.location.sdk.xml \
     vendor/motorola/sanders/proprietary/etc/permissions/com.qti.snapdragon.sdk.display.xml:system/etc/permissions/com.qti.snapdragon.sdk.display.xml \
