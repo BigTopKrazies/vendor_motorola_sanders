@@ -994,8 +994,11 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sanders/proprietary/vendor/lib/libdrmtime.so:system/vendor/lib/libdrmtime.so \
     vendor/motorola/sanders/proprietary/vendor/lib/libdrmutils.so:system/vendor/lib/libdrmutils.so \
     vendor/motorola/sanders/proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib/mediadrm/libdrmclearkeyplugin.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so
-
+    vendor/motorola/sanders/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
+    vendor/motorola/sanders/proprietary/lib/libaptXHD_encoder.so:system/lib/libaptXHD_encoder.so \
+    vendor/motorola/sanders/proprietary/lib/libaptX_encoder.so:system/lib/libaptX_encoder.so \
+    vendor/motorola/sanders/proprietary/lib/libldacBT_abr.so:system/lib/libldacBT_abr.so \
+    vendor/motorola/sanders/proprietary/lib/libldacBT_enc.so:system/lib/libldacBT_enc.so
 
 PRODUCT_PACKAGES += \
     TimeService \
