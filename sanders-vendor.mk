@@ -20,6 +20,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sanders/proprietary/bin/akmd09912:system/bin/akmd09912 \
     vendor/motorola/sanders/proprietary/bin/btnvtool:system/bin/btnvtool \
     vendor/motorola/sanders/proprietary/bin/charge_only_mode:system/bin/charge_only_mode \
+    vendor/motorola/sanders/proprietary/bin/gatekeeperd:system/bin/gatekeeperd \
     vendor/motorola/sanders/proprietary/bin/cnd:system/bin/cnd \
     vendor/motorola/sanders/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/motorola/sanders/proprietary/bin/ims_rtp_daemon:system/bin/ims_rtp_daemon \
@@ -131,6 +132,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sanders/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv_India.bin:system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv_India.bin \
     vendor/motorola/sanders/proprietary/etc/firmware/wlan/prima/WCNSS_wlan_dictionary.dat:system/etc/firmware/wlan/prima/WCNSS_wlan_dictionary.dat \
     vendor/motorola/sanders/proprietary/etc/xtra_root_cert.pem:system/etc/xtra_root_cert.pem \
+    vendor/motorola/sanders/proprietary/lib/android.hardware.biometrics.fingerprint@2.1.so:system/lib/android.hardware.biometrics.fingerprint@2.1.so \
     vendor/motorola/sanders/proprietary/lib/hw/camera.msm8953.so:system/lib/hw/camera.msm8953.so \
     vendor/motorola/sanders/proprietary/lib/hw/fingerprint.msm8953.so:system/vendor/lib/hw/fingerprint.vendor.msm8953.so \
     vendor/motorola/sanders/proprietary/lib/hw/sensors.iio.so:system/lib/hw/sensors.iio.so \
@@ -167,6 +169,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sanders/proprietary/vendor/bin/qti:system/vendor/bin/qti \
     vendor/motorola/sanders/proprietary/vendor/bin/slim_daemon:system/vendor/bin/slim_daemon \
     vendor/motorola/sanders/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
+    vendor/motorola/sanders/proprietary/vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service:system/vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service \
+    vendor/motorola/sanders/proprietary/vendor/bin/hw/rild:system/vendor/bin/hw/rild \
     vendor/motorola/sanders/proprietary/vendor/firmware/libpn548ad_fw.so:system/vendor/firmware/libpn548ad_fw.so \
     vendor/motorola/sanders/proprietary/vendor/lib/egl/eglSubDriverAndroid.so:system/vendor/lib/egl/eglSubDriverAndroid.so \
     vendor/motorola/sanders/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
