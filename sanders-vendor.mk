@@ -18,7 +18,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sanders/proprietary/bin/adspd:system/bin/adspd \
     vendor/motorola/sanders/proprietary/bin/adsprpcd:system/bin/adsprpcd \
     vendor/motorola/sanders/proprietary/bin/akmd09912:system/bin/akmd09912 \
-    vendor/motorola/sanders/proprietary/bin/btnvtool:system/bin/btnvtool \
+    vendor/motorola/sanders/proprietary/vendor/bin/btnvtool:system/vendor/bin/btnvtool \
     vendor/motorola/sanders/proprietary/bin/charge_only_mode:system/bin/charge_only_mode \
     vendor/motorola/sanders/proprietary/bin/gatekeeperd:system/bin/gatekeeperd \
     vendor/motorola/sanders/proprietary/bin/cnd:system/bin/cnd \
@@ -234,6 +234,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sanders/proprietary/vendor/lib/libaudcal.so:system/vendor/lib/libaudcal.so \
     vendor/motorola/sanders/proprietary/vendor/lib/libbccQTI.so:system/vendor/lib/libbccQTI.so \
     vendor/motorola/sanders/proprietary/vendor/lib/libbtnv.so:system/vendor/lib/libbtnv.so \
+    vendor/motorola/sanders/proprietary/vendor/lib64/libbtnv.so:system/vendor/lib64/libbtnv.so \
     vendor/motorola/sanders/proprietary/vendor/lib/libc2d30-a5xx.so:system/vendor/lib/libc2d30-a5xx.so \
     vendor/motorola/sanders/proprietary/vendor/lib/libc2d30_bltlib.so:system/vendor/lib/libc2d30_bltlib.so \
     vendor/motorola/sanders/proprietary/vendor/lib/libchromaflash.so:system/vendor/lib/libchromaflash.so \
