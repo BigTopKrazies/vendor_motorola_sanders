@@ -45,7 +45,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sanders/proprietary/vendor/bin/xtwifi-inet-agent:system/vendor/bin/xtwifi-inet-agent \
     vendor/motorola/sanders/proprietary/vendor/bin/loc_launcher:system/vendor/bin/loc_launcher \
     vendor/motorola/sanders/proprietary/vendor/bin/xtra-daemon:system/vendor/bin/xtra-daemon \
-    vendor/motorola/sanders/proprietary/bin/cnss-daemon:system/bin/cnss-daemon \
+    vendor/motorola/sanders/proprietary/vendor/bin/cnss-daemon:system/vendor/bin/cnss-daemon \
     vendor/motorola/sanders/proprietary/bin/ATFWD-daemon:system/bin/ATFWD-daemon \
     vendor/motorola/sanders/proprietary/etc/acdbdata/Bluetooth_cal.acdb:system/etc/acdbdata/Bluetooth_cal.acdb \
     vendor/motorola/sanders/proprietary/etc/acdbdata/General_cal.acdb:system/etc/acdbdata/General_cal.acdb \
