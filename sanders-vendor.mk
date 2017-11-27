@@ -1156,6 +1156,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sanders/proprietary/vendor/lib64/libflp.so:system/vendor/lib64/libflp.so \
     vendor/motorola/sanders/proprietary/vendor/lib64/libgdtap.so:system/vendor/lib64/libgdtap.so \
     vendor/motorola/sanders/proprietary/vendor/lib64/libgnsspps.so:system/vendor/lib64/libgnsspps.so \
+    vendor/motorola/sanders/proprietary/vendor/lib/libgnsspps.so:system/vendor/lib/libgnsspps.so \
     vendor/motorola/sanders/proprietary/vendor/lib64/libgnss.so:system/vendor/lib64/libgnss.so \
     vendor/motorola/sanders/proprietary/vendor/lib/libgnss.so:system/vendor/lib/libgnss.so \
     vendor/motorola/sanders/proprietary/vendor/lib64/liblowi_client.so:system/vendor/lib64/liblowi_client.so \
