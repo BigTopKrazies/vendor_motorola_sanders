@@ -1214,7 +1214,13 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sanders/proprietary/vendor/lib64/libnetmgr.so:system/vendor/lib64/libnetmgr.so \
     vendor/motorola/sanders/proprietary/vendor/lib64/libqdi.so:system/vendor/lib64/libqdi.so \
     vendor/motorola/sanders/proprietary/vendor/lib64/libxml.so:system/vendor/lib64/libxml.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libgralloc1.so:system/vendor/lib/libgralloc1.so
+    vendor/motorola/sanders/proprietary/vendor/lib/libgralloc1.so:system/vendor/lib/libgralloc1.so \
+    vendor/motorola/sanders/proprietary/lib/vendor.qti.hardware.fm@1.0.so:system/lib/vendor.qti.hardware.fm@1.0.so \
+    vendor/motorola/sanders/proprietary/lib64/vendor.qti.hardware.fm@1.0.so:system/lib64/vendor.qti.hardware.fm@1.0.so \
+    vendor/motorola/sanders/proprietary/vendor/lib/vendor.qti.hardware.fm@1.0_vendor.so:system/vendor/lib/vendor.qti.hardware.fm@1.0_vendor.so \
+    vendor/motorola/sanders/proprietary/vendor/lib64/vendor.qti.hardware.fm@1.0_vendor.so:system/vendor/lib64/vendor.qti.hardware.fm@1.0_vendor.so \
+    vendor/motorola/sanders/proprietary/vendor/lib/hw/vendor.qti.hardware.fm@1.0-impl.so:system/vendor/lib/hw/vendor.qti.hardware.fm@1.0-impl.so \
+    vendor/motorola/sanders/proprietary/vendor/lib64/hw/vendor.qti.hardware.fm@1.0-impl.so:system/vendor/lib64/hw/vendor.qti.hardware.fm@1.0-impl.so
 
 PRODUCT_PACKAGES += \
     TimeService \
