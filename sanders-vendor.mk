@@ -192,6 +192,12 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sanders/proprietary/vendor/lib/lib-imss.so:system/vendor/lib/lib-imss.so \
     vendor/motorola/sanders/proprietary/vendor/lib/lib-imsvt.so:system/vendor/lib/lib-imsvt.so \
     vendor/motorola/sanders/proprietary/vendor/lib/lib-imsxml.so:system/vendor/lib/lib-imsxml.so \
+    vendor/motorola/sanders/proprietary/vendor/lib/com.qualcomm.qti.imscmservice@1.0.so:system/vendor/lib/com.qualcomm.qti.imscmservice@1.0.so \
+    vendor/motorola/sanders/proprietary/vendor/lib/lib-imsvideocodec.so:system/vendor/lib/lib-imsvideocodec.so \
+    vendor/motorola/sanders/proprietary/vendor/lib/lib-imsvtextutils.so:system/vendor/lib/lib-imsvtextutils.so \
+    vendor/motorola/sanders/proprietary/vendor/lib/lib-imsvtutils.so:system/vendor/lib/lib-imsvtutils.so \
+    vendor/motorola/sanders/proprietary/vendor/lib/vendor.qti.imsrtpservice@1.0.so:system/vendor/lib/vendor.qti.imsrtpservice@1.0.so \
+    vendor/motorola/sanders/proprietary/vendor/lib/com.qualcomm.qti.imscmservice@1.0.so:system/vendor/lib/com.qualcomm.qti.imscmservice@1.0.so \
     vendor/motorola/sanders/proprietary/vendor/lib/lib-rcsimssjni.so:system/vendor/lib/lib-rcsimssjni.so \
     vendor/motorola/sanders/proprietary/vendor/lib/lib-rcsjni.so:system/vendor/lib/lib-rcsjni.so \
     vendor/motorola/sanders/proprietary/vendor/lib/lib-rtpcommon.so:system/vendor/lib/lib-rtpcommon.so \
@@ -1247,7 +1253,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sanders/proprietary/vendor/lib/libdtvhal.so:system/vendor/lib/libdtvhal.so \
     vendor/motorola/sanders/proprietary/vendor/lib64/libdtvhal.so:system/vendor/lib64/libdtvhal.so \
     vendor/motorola/sanders/proprietary/vendor/lib64/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib64/mediadrm/libdrmclearkeyplugin.so \
-    vendor/motorola/sanders/proprietary/vendor/lib64/mediadrm/libwvdrmengine.so:system/vendor/lib64/mediadrm/libwvdrmengine.so
+    vendor/motorola/sanders/proprietary/vendor/lib64/mediadrm/libwvdrmengine.so:system/vendor/lib64/mediadrm/libwvdrmengine.so \
+    vendor/motorola/sanders/proprietary/vendor/framework/qti-vzw-ims-internal.jar:system/vendor/framework/qti-vzw-ims-internal.jar
 
 PRODUCT_PACKAGES += \
     TimeService \
