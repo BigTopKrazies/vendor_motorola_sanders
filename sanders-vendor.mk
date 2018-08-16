@@ -1302,6 +1302,13 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sanders/proprietary/vendor/lib64/vendor.qti.hardware.sensorscalibrate@1.0.so:system/vendor/lib64/vendor.qti.hardware.sensorscalibrate@1.0.so \
     vendor/motorola/sanders/proprietary/vendor/framework/vendor.qti.hardware.sensorscalibrate-V1.0-java.jar:system/vendor/framework/vendor.qti.hardware.sensorscalibrate-V1.0-java.jar
 
+PRODUCT_COPY_FILES += \
+    vendor/motorola/sanders/proprietary/vendor/lib/libWi.so:system/vendor/lib/libWi.so \
+    vendor/motorola/sanders/proprietary/vendor/lib/libWtils.so:system/vendor/lib/libWtils.so \
+    vendor/motorola/sanders/proprietary/vendor/lib/libWui.so:system/vendor/lib/libWui.so \
+    vendor/motorola/sanders/proprietary/vendor/lib64/Wndroid.hardware.gnss@1.0.so:system/vendor/lib64/Wndroid.hardware.gnss@1.0.so \
+    vendor/motorola/sanders/proprietary/vendor/lib64/Wndroid.hardware.sensors@1.0.so:system/vendor/lib64/Wndroid.hardware.sensors@1.0.so
+
 PRODUCT_PACKAGES += \
     TimeService \
     embms \
