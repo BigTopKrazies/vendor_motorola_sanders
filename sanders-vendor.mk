@@ -71,6 +71,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sanders/proprietary/vendor/etc/cne/wqeclient/VZW/VZW_profile6.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/VZW/VZW_profile6.xml \
     vendor/motorola/sanders/proprietary/etc/data/dsi_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/data/dsi_config.xml \
     vendor/motorola/sanders/proprietary/etc/data/netmgr_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/data/netmgr_config.xml \
+    vendor/motorola/sanders/proprietary/vendor/etc/qdcm_calib_data_mipi_mot_vid_djn_1080p_550.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_mipi_mot_vid_djn_1080p_550.xml \
+    vendor/motorola/sanders/proprietary/vendor/etc/qdcm_calib_data_mipi_mot_vid_tianma_1080p_550.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_mipi_mot_vid_tianma_1080p_550.xml \
     vendor/motorola/sanders/proprietary/etc/firmware/a530_gpmu.fw2:system/etc/firmware/a530_gpmu.fw2 \
     vendor/motorola/sanders/proprietary/etc/firmware/a530_pfp.fw:system/etc/firmware/a530_pfp.fw \
     vendor/motorola/sanders/proprietary/etc/firmware/a530_pm4.fw:system/etc/firmware/a530_pm4.fw \
