@@ -1311,6 +1311,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sanders/proprietary/vendor/lib64/libdtvhal.so:$(TARGET_COPY_OUT_VENDOR)lib64/libdtvhal.so \
 
 PRODUCT_PACKAGES += \
+    libqct_resampler \
     TimeService \
     embms \
     com.qti.location.sdk \
